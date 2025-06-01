@@ -2,12 +2,14 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "test" ]  # Ganti dari main ke test
+    branches: [ "test" ]
   workflow_dispatch:
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Tambahkan ini untuk memberikan akses write
     
     steps:
       - name: Checkout
@@ -36,3 +38,4 @@ jobs:
         with:
           folder: out
           branch: gh-pages
+          clean: true  # Tambahkan ini untuk membersihkan branch sebelum deploy
