@@ -1,0 +1,92 @@
+{
+    "sections": [
+        {
+            "title": "Projects",
+            "keys": "profile-projects",
+            "values": [
+                {
+                    "title": "Jasgo Admin",
+                    "description": "Jasgo Admin is a web application for managing Jasgo. It is built with React and backend with Laravel.",
+                    "link": "https://jasgo.id",
+                    "date": "",
+                    "keys": "profile-projects-jasgo-admin"
+                },
+                {
+                    "title": "Jasgo Customer Apps",
+                    "description": "Jasgo Customer Apps is a mobile application for managing Jasgo. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "image": "assets/jasgo.png",
+                    "link": "https://play.google.com/store/apps/details?id=com.jasgo.customer&hl=id",
+                    "date": "",
+                    "keys": "profile-projects-jasgo-customer-apps"
+                },
+                {
+                    "title": "Jasgo Driver Apps",
+                    "description": "Jasgo Driver Apps is a mobile application for managing Jasgo. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "image": "assets/jasgo-driver.png",
+                    "link": "https://play.google.com/store/apps/details?id=com.jasgo.driver&hl=id",
+                    "date": "",
+                    "keys": "profile-projects-jasgo-driver-apps"
+                },
+                {
+                    "title": "Mediplus Patient Apps",
+                    "description": "Mediplus Patient Apps is a mobile application for managing Mediplus. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "image": "assets/mediplus.png",
+                    "link": "https://play.google.com/store/apps/details?id=com.apps.mediplus&hl=id",
+                    "date": "",
+                    "keys": "profile-projects-mediplus-patient-apps"
+                },
+                {
+                    "title": "Mediplus Doctor Apps",
+                    "description": "Mediplus Doctor Apps is a mobile application for managing Mediplus. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "image": "assets/mediplus-doctor.png",
+                    "link": "https://play.google.com/store/apps/details?id=com.apps.doktermediplus.doktermediplus&hl=id",
+                    "date": "",
+                    "keys": "profile-projects-mediplus-doctor-apps"
+                },
+                {
+                    "title": "Silver VTR Apps",
+                    "description": "Silver VTR Apps is a mobile application for managing Silver VTR. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "date": "",
+                    "link": "#",
+                    "keys": "profile-projects-silver-vtr-apps"
+                },
+                {
+                    "title": "Silver VTR Merchant Apps",
+                    "description": "Silver VTR Apps is a mobile application for managing Silver VTR. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "image": "assets/silvervtr.png",
+                    "link": "https://play.google.com/store/apps/details?id=com.vtr.silvervtr_merchant&hl=id",
+                    "date": "",
+                    "keys": "profile-projects-silver-vtr-merchant-apps"
+                },
+                {
+                    "title": "Carcirus Apps",
+                    "description": "Carcirus App is a mobile application for managing Carcirus. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "image": "assets/carcirus.png",
+                    "link": "https://play.google.com/store/apps/details?id=com.carcirus.carcirus&hl=id",
+                    "date": "",
+                    "keys": "profile-projects-carcirus-app"
+                }
+            ]
+        },
+        {
+            "title": "Experience",
+            "keys": "profile-experience",
+            "values": [
+                {
+                    "title": "PT MEDIPLUS KARYA INDONESIA",
+                    "description": "Flutter Developer | 2020 - 2023",
+                    "link": "https://www.mediplusindonesia.co.id/",
+                    "date": "2020-01-01 - 2023-01-01",
+                    "keys": "profile-experience-medip-karya-indonesia"
+                },
+                {
+                    "title": "PT RUANG TEKNOLOGI INDONESIA",
+                    "description": "Flutter Developer | 2019 - 2020",
+                    "link": "#",
+                    "date": "2019-01-01 - 2020-01-01",
+                    "keys": "profile-experience-ruang-tekno-indonesia"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "contact": {
+        "email": "faizaltriswanto@gmail.com",
+        "phone": "088217081355",
+        "address": "Jl. Raya No. 123, Jakarta",
+        "linkedin": "https://www.linkedin.com/in/faizal-triswanto-a0646a1b0/",
+        "github": "https://github.com/FDhunterz"
+    },
+    "about_me": "I am a programmer who continuously learns and grows, therefore I can create mobile apps and website development in the backend, and I understand how to provide solutions for every company.",
+    "codestyle": "I am a programmer who continuously learns and grows, therefore I can create mobile apps and website development in the backend, and I understand how to provide solutions for every company.",
+    "skills": [
+        {
+            "name": "Flutter",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+            "level": "Expert",
+            "description": "I have been using Flutter for 5 years and have created many apps for my clients."
+        },
+        {
+            "name": "Dart",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
+            "level": "Expert",
+            "description": "I have been using Dart for 5 years and have created many apps for my clients."
+        },
+        {
+            "name": "React Native",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+            "level": "Intermediate",
+            "description": "I have been using React Native for 3 years and have created many apps for my clients."
+        },
+        {
+            "name": "Next.js",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+            "level": "Intermediate",
+            "description": "im still learning Next.js but its same like React.js"
+        },
+        {
+            "name": "Node.js",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+            "level": "Beginner",
+            "description": "im still learning Node.js but its same like React.js"
+        },
+        {
+            "name": "Go",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+            "level": "Beginner",
+            "description": "im still learning Go"
+        },
+        {
+            "name": "PHP",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+            "level": "Intermediate",
+            "description": "I have been using PHP for 3 years and have created many apps for my clients."
+        },
+        {
+            "name": "Laravel",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
+            "level": "Intermediate",
+            "description": "I have been using Laravel for 3 years and have created many apps for my clients."
+        },
+        {
+            "name": "MySQL",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+            "level": "Intermediate",
+            "description": "I have been using MySQL same as PHP."
+        }
+    ]
+}
