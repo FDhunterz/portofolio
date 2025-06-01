@@ -1,4 +1,5 @@
 import aboutMe from "./about-me.json";
+import Image from 'next/image';
 
 export default function AboutMeSkillWidget() {
     const levelToPercentage = (level: string) => {
@@ -19,7 +20,8 @@ export default function AboutMeSkillWidget() {
         
         return (
             <div key={skill.name} className="flex w-full sm:w-[calc(50%-8px)] flex-row items-center border border-gray-100 rounded-md p-3 gap-2">
-                <img className="w-10 h-10 mr-2" src={skill.icon} alt={skill.name} />
+                <Image className="w-10 h-10 mr-2" src={skill.icon} alt={skill.name} />  
+                
                 <div className="flex flex-col w-full">
                     <p className="text-lg font-bold">{skill.name}</p>
                     <p className="text-sm text-gray-500 mb-2">{skill.description}</p>

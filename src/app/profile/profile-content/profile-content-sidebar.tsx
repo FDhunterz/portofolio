@@ -34,7 +34,7 @@ export default function ProfileContentSidebar({items, title }: ProfileContentSid
         window.addEventListener('scroll', handleScroll, { passive: true });
         handleScroll();
         return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    }, [items]);
 
     const onclickScroll = (keys: string) => {
         setActive(keys);

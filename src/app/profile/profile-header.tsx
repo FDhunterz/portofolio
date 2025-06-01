@@ -1,7 +1,6 @@
 "use client";
 import mePNG from "@/assets/me.png";
-import html2pdf from 'html2pdf.js';
-
+import Image from 'next/image';
 export default function ProfileHeader() {   
 
     const downloadCV = async () => {
@@ -71,7 +70,7 @@ export default function ProfileHeader() {
                 <div className="xl:w-1/3 w-1/2 print:w-1/2 flex items-center justify-center">
                 <div className="w-full aspect-square rounded-full p-10 border-2 border-tertiary">
                     <div className="w-full aspect-square rounded-full overflow-hidden">
-                    <img 
+                    <Image 
                         src={mePNG.src} 
                         alt="Profile" 
                         className="w-full h-full object-cover object-top"
@@ -96,7 +95,7 @@ export default function ProfileHeader() {
                         </div>
                         <div className="pb-20 print:pb-25">
                             <h1 className="xl:text-9xl print:text-7xl text-7xl font-extralight text-primary mb-10">Frontend and Mobile Developer</h1>
-                            <p className="text-lg text-primary mb-10">Hello, I'm Faizal. I'm a software engineer with a passion for building web applications. I'm a quick learner and I'm always looking to improve my skills.</p>
+                            <p className="text-lg text-primary mb-10">Hello, I&apos;m Faizal. I&apos;m a software engineer with a passion for building web applications. I&apos;m a quick learner and I&apos;m always looking to improve my skills.</p>
                             <div className="flex print:hidden" >
                                 <button className="button-primary bg-primary text-white mr-5" onClick={()=> {
                                     window.open('https://wa.me/6288217081355', '_blank');

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import DeviceCheck from "../components/DeviceCheck";
 import ProfileBase from "./profile/profile-base";
 
