@@ -21,7 +21,7 @@
             "level": "Expert",
             "description": "I have been using Dart for 5 years and have created many apps for my clients."
         },
-        {
+        {       
             "name": "React Native",
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
             "level": "Intermediate",

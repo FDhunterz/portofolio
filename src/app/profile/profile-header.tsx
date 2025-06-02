@@ -1,7 +1,8 @@
 "use client";
 import mePNG from "@/assets/me.png";
 import Image from 'next/image';
-export default function ProfileHeader() {   
+import { DataProfileModel } from "./[name]/profile_model";
+export default function ProfileHeader({data} : {data : DataProfileModel}) {   
 
     const downloadCV = async () => {
         print();
@@ -74,6 +75,8 @@ export default function ProfileHeader() {
                         src={mePNG.src} 
                         alt="Profile" 
                         className="w-full h-full object-cover object-top"
+                        width={100}
+                        height={100}
                     />
                     </div>
                 </div>

@@ -42,7 +42,7 @@ export default function ProfileContentProjects({title, description, image, link,
                 <h1 className="text-4xl print:text-2xl font-bold mb-5 cursor-pointer" onClick={() => window.open(link, '_blank')}>{title}</h1>
                 <p className="text-lg text-gray-500 mb-5">{description}</p>
             </div>
-            {getImage() && <Image className="w-full h-auto border-2 border-gray-200 rounded-md" src={getImage()!} alt={title} />}
+            {getImage() && <Image width={100} height={100} className="w-full h-auto border-2 border-gray-200 rounded-md" src={getImage()!} alt={title} />}
             <span className="text-sm text-gray-500">{date}</span>
         </section>
     );

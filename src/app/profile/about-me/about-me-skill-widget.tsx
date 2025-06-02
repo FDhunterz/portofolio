@@ -1,7 +1,8 @@
-import aboutMe from "./about-me.json";
+import { DataProfileModel } from "../[name]/profile_model";
 import Image from 'next/image';
 
-export default function AboutMeSkillWidget() {
+
+export default function AboutMeSkillWidget({aboutMe} : {aboutMe : DataProfileModel}) {
     const levelToPercentage = (level: string) => {
         switch (level) {
             case "Expert":
@@ -20,7 +21,7 @@ export default function AboutMeSkillWidget() {
         
         return (
             <div key={skill.name} className="flex w-full sm:w-[calc(50%-8px)] flex-row items-center border border-gray-100 rounded-md p-3 gap-2">
-                <Image className="w-10 h-10 mr-2" src={skill.icon} alt={skill.name} />  
+                <Image className="w-10 h-10 mr-2" src={skill.icon} alt={skill.name} width={100} height={100} />  
                 
                 <div className="flex flex-col w-full">
                     <p className="text-lg font-bold">{skill.name}</p>

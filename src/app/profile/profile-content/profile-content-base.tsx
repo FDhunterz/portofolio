@@ -1,8 +1,10 @@
+import { SectionModel } from "../[name]/profile_model";
 import ProfileContentProjects from "./profile-content-projects";
 import ProfileContentSidebar from "./profile-content-sidebar";
 import sections from "./section.json";
 
-export default function ProfileContentBase() {  
+
+export default function ProfileContentBase({sections} : {sections : SectionModel}) {  
 
     return (
         <div className="px-20">

@@ -1,10 +1,8 @@
+import { redirect } from "next/navigation";
 import DeviceCheck from "../components/DeviceCheck";
 import ProfileBase from "./profile/profile-base";
 
+
 export default function Home() {
-  return (
-    <DeviceCheck>
-      <ProfileBase />
-    </DeviceCheck>
-  );
+  redirect('/profile/faizal_triswanto');
 }

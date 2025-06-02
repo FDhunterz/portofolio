@@ -1,7 +1,7 @@
-import aboutMe from "./about-me.json";
+import { DataProfileModel } from "../[name]/profile_model";
 
 
-export default function AboutMeContact() {
+export default function AboutMeContact({aboutMe} : {aboutMe : DataProfileModel}) {
     return (
         <div className="flex flex-col items-center w-full mt-20 print:mt-10   " id="contact">
             <h2 className="text-2xl font-bold text-center mb-5">Contact</h2>

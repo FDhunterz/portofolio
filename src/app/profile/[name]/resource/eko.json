@@ -1,0 +1,57 @@
+{
+    "name": "eko",
+    "data" : {
+        "contact": {
+            "email": "eko@gmail.com",
+            "phone": "088217081355",
+            "address": "Gadung Village, Randu Pukah Hamlet RT13 RW03, Driyorejo, Gresik, Indonesia",
+            "linkedin": "#",
+            "github": "#"
+        },
+        "about_me": "I am a programmer who continuously learns and grows, therefore I can create mobile apps and website development in the backend, and I understand how to provide solutions for every company.",
+        "codestyle": "I am a programmer who continuously learns and grows, therefore I can create mobile apps and website development in the backend, and I understand how to provide solutions for every company.",
+        "skills": [
+            {
+                "name": "Flutter",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+                "level": "Expert",
+                "description": "I have been using Flutter for 5 years and have created many apps for my clients."
+            },
+            {
+                "name": "Dart",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
+                "level": "Expert",
+                "description": "I have been using Dart for 5 years and have created many apps for my clients."
+            }
+        ]
+    },
+    "sections": [
+        {
+            "title": "Projects",
+            "keys": "profile-projects",
+            "values": [
+                {
+                    "title": "Eko Admin",
+                    "description": "Eko Admin is a web application for managing Eko. It is built with React and backend with Laravel.",
+                    "link": "#",
+                    "date": "",
+                    "keys": "profile-projects-eko-admin"
+                }
+            ]
+        },
+        {
+            "title": "Experience",
+            "keys": "profile-experience",
+            "values": [
+                {
+                    "title": "PT MEDIPLUS KARYA INDONESIA",
+                    "description": "Flutter Developer | 2020 - 2023",
+                    "link": "#",
+                    "date": "2020-01-01 - 2023-01-01",
+                    "keys": "profile-experience-medip-karya-indonesia",
+                    "image" : null
+                }
+            ]
+        }
+    ]
+}
