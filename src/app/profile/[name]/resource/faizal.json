@@ -3,7 +3,7 @@
     "data" : {
         "contact": {
             "email": "faizaltriswanto@gmail.com",
-            "phone": "088217081355",
+            "phone": "+62 882 1708 1355",
             "address": "Gadung Village, Randu Pukah Hamlet RT13 RW03, Driyorejo, Gresik, Indonesia",
             "linkedin": "https://www.linkedin.com/in/faizal-triswanto-a0646a1b0/",
             "github": "https://github.com/FDhunterz"
@@ -81,7 +81,7 @@
                 },
                 {
                     "title": "Jasgo Customer Apps",
-                    "description": "Jasgo Customer Apps is a mobile application for managing Jasgo. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "description": "Jasgo Customer Apps is a mobile application for managing Jasgo. It is built with Flutter.",
                     "image": "assets/jasgo.png",
                     "link": "https://play.google.com/store/apps/details?id=com.jasgo.customer&hl=id",
                     "date": "",
@@ -89,7 +89,7 @@
                 },
                 {
                     "title": "Jasgo Driver Apps",
-                    "description": "Jasgo Driver Apps is a mobile application for managing Jasgo. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "description": "Jasgo Driver Apps is a mobile application for managing Jasgo. It is built with Flutter.",
                     "image": "assets/jasgo-driver.png",
                     "link": "https://play.google.com/store/apps/details?id=com.jasgo.driver&hl=id",
                     "date": "",
@@ -97,7 +97,7 @@
                 },
                 {
                     "title": "Mediplus Patient Apps",
-                    "description": "Mediplus Patient Apps is a mobile application for managing Mediplus. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "description": "Mediplus Patient Apps is a mobile application for managing Mediplus. It is built with Flutter.",
                     "image": "assets/mediplus.png",
                     "link": "https://play.google.com/store/apps/details?id=com.apps.mediplus&hl=id",
                     "date": "",
@@ -105,7 +105,7 @@
                 },
                 {
                     "title": "Mediplus Doctor Apps",
-                    "description": "Mediplus Doctor Apps is a mobile application for managing Mediplus. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "description": "Mediplus Doctor Apps is a mobile application for managing Mediplus. It is built with Flutter.",
                     "image": "assets/mediplus-doctor.png",
                     "link": "https://play.google.com/store/apps/details?id=com.apps.doktermediplus.doktermediplus&hl=id",
                     "date": "",
@@ -113,14 +113,14 @@
                 },
                 {
                     "title": "Silver VTR Apps",
-                    "description": "Silver VTR Apps is a mobile application for managing Silver VTR. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "description": "Silver VTR Apps is a mobile application for managing Silver VTR. It is built with Flutter.",
                     "date": "",
                     "link": "#",
                     "keys": "profile-projects-silver-vtr-apps"
                 },
                 {
                     "title": "Silver VTR Merchant Apps",
-                    "description": "Silver VTR Apps is a mobile application for managing Silver VTR. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "description": "Silver VTR Apps is a mobile application for managing Silver VTR. It is built with Flutter.",
                     "image": "assets/silvervtr.png",
                     "link": "https://play.google.com/store/apps/details?id=com.vtr.silvervtr_merchant&hl=id",
                     "date": "",
@@ -128,11 +128,26 @@
                 },
                 {
                     "title": "Carcirus Apps",
-                    "description": "Carcirus App is a mobile application for managing Carcirus. It is built with React Native, TypeScript, and Expo. It is a full stack application that includes a backend and a frontend.",
+                    "description": "Carcirus App is a mobile application for managing Carcirus. It is built with Flutter.",
                     "image": "assets/carcirus.png",
                     "link": "https://play.google.com/store/apps/details?id=com.carcirus.carcirus&hl=id",
                     "date": "",
                     "keys": "profile-projects-carcirus-app"
+                },
+                {
+                    "title": "Carcirus Landing Page",
+                    "description": "Carcirus Landing Page is a landing page for Carcirus. It is built with Next.js.",
+                    "image": "assets/carcirus.png",
+                    "link": "https://carcirus.com",
+                    "date": "",
+                    "keys": "profile-projects-carcirus-landing-page"
+                },
+                {
+                    "title": "NextDoc",
+                    "description": "NextDoc is a medical appointment booking system. It is built with Next.js.",
+                    "link": "https://nextdoc.com.br/",
+                    "date": "",
+                    "keys": "profile-projects-nextdoc"
                 }
             ]
         },
